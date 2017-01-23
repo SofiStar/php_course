@@ -1,1 +1,1 @@
-php_course
+ci_example

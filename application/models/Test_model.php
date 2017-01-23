@@ -1,13 +1,12 @@
 <?php
 Class Test_model extends CI_model {
 
-
 public function getNames(){
-  $names=array(
-  array("fname" => 'jim',"lname"=>'Jones');
-  array("fname" => 'lisa',"lname"=>'Jones');
-  array("fname" => 'anna',"lname"=>'Jones');
-);
-  return $names;
+	$names=array(
+	array("fname"=>'Jim',"lname"=>'Jones'),
+	array("fname"=>'Lisa',"lname"=>'Jones'),
+	array("fname"=>'Ann',"lname"=>'Smith')
+	);
+	return $names;
 }
 }
